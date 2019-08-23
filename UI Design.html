@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Prototype</title>
+    <!-- InstanceEndEditable -->
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/jmk4hrq.css">
+	
+    <!--Proxima nova -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/foundation.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- InstanceBeginEditable name="head" -->
+	<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div class="wrapper  float-center">
+<!-- InstanceBeginEditable name="Header" -->
+  <header>
+    <div class="row">
+      <div class="small-12 columns ">
+        <div class="header-logo"> <a href="index.html"> <img src="assets/img/logos/brck-logo.svg" alt=""> </a> </div>
+        <!--  Responsive menu-->
+        <a aria-label="mobile menu" class="nav-toggle"> <span></span> <span></span> </a>
+        <nav>
+          <ul class="top-main-nav">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="Moja-App.html">Moja App</a></li>
+            <li> <a href="Websites.html">Websites</a></li>
+            <li> <a href="Admin-Templates.html">Admin Templates</a></li>
+            <li class="current_page_item"> <a href="UI%20Design.html">UI Design</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+<!-- InstanceEndEditable -->
+  <!-- CONTENT-MENU -->
+         <!-- InstanceBeginEditable name="Content" -->
+	<div class="absolute">
+	<div class="row intro">
+      <!-- LEFT-NAV -->
+      <div class="columns small-12 medium-4">
+        <div>
+          <h2><b class="intro-item">UI Designs</b></h2>
+          <div class="left-content1">Contains various protoypes for the mobile, websites and Admin dashboards</div>
+        </div>
+
+        <div>
+          <h5>WEBSITES</h5>
+          <div class="left-content2">The one stop shop for different templates and assets that are being worked on by the design team.</div>
+          <div class="left-link"><a href="Websites/UI-Websites.html">View Template <i class="fas fa-chevron-right"></i></a></div>
+
+        </div>
+
+        <div>
+          <h5>MOBILE APPS</h5>
+          <div class="left-content2">The one stop shop for different templates and assets that are being worked on by the design team. All the rumours have finally died down and many.</div>
+          <div class="left-link"><a href="Websites/UI-Design-MobileApps.html">View Template <i class="fas fa-chevron-right"></i></a></div>
+        </div>
+        <div>
+          <h5>ADMIN/SYSTEM DASHBOARDS</h5>
+          <div class="left-content2">The one stop shop for different templates and assets that are being worked on by the design team. All the rumours have finally died down and many.</div>
+          <div class="left-link"><a href="Websites/UI-Dashboards.html">View Template <i class="fas fa-chevron-right"></i></a></div>
+        </div>
+      </div>
+      <!-- RIGHT-NAV -->
+      <div class="columns medium-offset-1">
+        <img src="assets/img/pic5.jpg">
+      </div>
+    </div>
+	</div>
+         <!-- InstanceEndEditable -->
+         <!--BANNER -->
+        <!-- InstanceBeginEditable name="region3" -->
+     
+        <!-- InstanceEndEditable --></div>
+
+    
+    <!--wrapper-->
+
+<script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/foundation.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--  Power up foundation-->
+    <script>
+        $(document).foundation()
+    </script>
+
+    <!-- Reponsive Top menu -->
+
+    <script>
+        // TOGGLE HAMBURGER & COLLAPSE NAV
+            $('.nav-toggle').on('click', function () {
+                $(this).toggleClass('open');
+                $('.top-main-nav').toggleClass('collapse');
+            });
+            // REMOVE X & COLLAPSE NAV ON ON CLICK
+            $('.menu-left a').on('click', function () {
+                $('.nav-toggle').removeClass('open');
+                $('.top-main-nav').removeClass('collapse');
+            });
+    </script>
+  
+</body>
+
+<!-- InstanceEnd --></html>
