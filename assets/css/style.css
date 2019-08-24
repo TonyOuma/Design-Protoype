@@ -1,0 +1,198 @@
+@charset "UTF-8";
+ html, body {
+     height: 100%;
+     width: 100%;
+     margin: 0;
+}
+ body {
+     background-color: white;
+	 font-family: proxima-nova;
+	 font-weight: regular;
+     font-size: 14px;
+     width: 100%;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ OVERRIDE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+ ::-webkit-input-placeholder {
+     color: #000000;
+}
+ :-ms-input-placeholder {
+     color: #000000;
+}
+ ::-ms-input-placeholder {
+     color: #000000;
+}
+ ::placeholder {
+     color: #000000;
+}
+ .button {
+     border-radius: 0 !important;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+  GLOBAL STYLES
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+h2 {	
+	font-weight: bold;
+    font-family: proxima-nova;
+    font-size: 44px;
+    line-height: 0px;"
+}
+
+@media screen and (max-width: 39.99875em) {
+  
+  h2 {	
+	  font-size: 49px;
+	  line-height: 0px;
+ }
+}
+ a {
+     color: #4A90E2;
+}
+ /*.dark-link {
+     color: #4A4A4A;
+}
+/*--widths--- */
+ .wrapper {
+     max-width: 1200px;
+}
+ .row-stretch {
+     max-width: 1200px;
+}
+ @media screen and (max-width: 39.99875em) {
+     .wrapper {
+         width: 100%;
+    }
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ GENERAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+ .relative {
+     position: relative;
+}
+ .no-border{
+     border-radius: 0 !important;
+}
+
+.strong{
+  font-weight: 700;
+}
+.absolute{
+	padding-top: 45px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+   START : HEADER 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+ header{
+    
+}
+ .header-logo{
+     float: left;
+}
+ .header-logo img{
+     width: 104px;
+     height: auto;
+    padding-top: 30px;
+}
+ header nav{
+     float: right;
+}
+ .top-main-nav li{
+     list-style: none;
+     display: inline-block;
+     padding-left:0px;
+     padding-top:0px;
+     font-size: 14px;
+     line-height: 3.0;
+}
+.top-main-nav {
+     display: block;
+     max-height: 0;
+     overflow: hidden;
+     -webkit-transition: all 0.3s ease-out;
+     -moz-transition: all 0.3s ease-out;
+     -ms-transition: all 0.3s ease-out;
+     -o-transition: all 0.3s ease-out;
+     transition: all 0.3s ease-out;
+     z-index: 10;
+}
+ @media (min-width: 40em) {
+     .top-main-nav {
+         display: block !important;
+         max-height: none;
+    }
+}
+ .top-main-nav a {
+     position: relative;
+     padding-bottom: 20px;
+     transition: color .35s ease;
+     color: #4A4A4A;
+     display: inline-block;
+     padding: 25px 10px 0px 10px;
+}
+
+ @media screen and (max-width: 39.99875em) {
+     header nav{
+         clear: both;
+         width: 100%;
+    }
+     .top-main-nav {
+         padding-left: 0;
+         margin-left: 0;
+    }
+     .top-main-nav li{
+         display: block ;
+         padding: 0px 0;
+         border-bottom: #f1f1f1 solid 1px;
+         line-height: 1.0;
+    }
+     .top-main-nav li:last-child{
+         border: none;
+    }
+}
+ .hide-nav {
+     transform: translateY(-120%) !important;
+     -webkit-transform: translateY(-120%) !important;
+}
+ .top-main-nav.collapse {
+     max-height: 15em !important;
+}
+ .nav-toggle {
+     display: block;
+     border-radius: 5px;
+     background-color: transparent;
+     float: right;
+     height: 33px;
+     width: 33px;
+     cursor: pointer;
+     padding:11px 8px;
+     background-color: #D8D8D8;
+     border-radius: 50%;
+     line-height: 35px;
+     margin-top: 30px;
+}
+ .nav-toggle.open span:first-child {
+     transform: rotate(45deg) translate(1.5px, 1.5px);
+}
+ .nav-toggle.open span:last-child {
+     transform: rotate(-45deg) translate(1.5px, -1.5px);
+}
+ @media (min-width: 40em) {
+     .nav-toggle {
+         display: none;
+    }
+}
+ .nav-toggle span {
+     position: relative;
+     display: block;
+     height: 1px;
+     width: 100%;
+     margin-top: 3px;
+     background-color:#4A4A4A;
+     transition: all .25s;
+}
+ @media screen and (max-width: 39.99875em) {
+     header .contacts{
+         display:none 
+    }
+}
+

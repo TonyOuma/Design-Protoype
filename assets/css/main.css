@@ -1,0 +1,193 @@
+
+
+
+.logo {
+      width: 130px;
+      height: auto;
+	  margin-top: 30px;
+}
+.menu{
+	padding-bottom: 65px;
+}
+    
+.mid-content{
+    padding-top: 0px;
+    padding-bottom: 45px;
+}
+.top-list1{
+	padding-top: 10px;
+    padding-bottom: 45px;
+}
+.banner-item{
+	padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+
+.intro-item{
+	line-height: 9px;
+	font-size: 54px;
+	font-weight: bold;
+}
+.intro-item{
+	line-height: 35px;
+	font-size: 46px;
+	font-weight: bold;
+}
+h1{}
+h2{
+	font-size: 49;
+	font-weight: bold;
+	line-height: 50px;
+}
+h3{}
+h4,h5{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	
+}
+h5{
+	
+}
+
+.intro{
+  padding-top: 0px; 
+}
+.intro-c{
+	padding-top: 0px;
+}
+
+.intro h1{
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+.intro p{
+  font-size:22px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 39.99875em) {
+ h2{
+	font-size: 49;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+  .intro p{
+    font-size:20px;
+     padding-top: 10px;
+  }
+  
+}
+
+header .text{
+			color: #ccc;
+			border-left: #777 dotted 1px;
+			margin-left: 8px;
+			padding-left: 8px;
+			margin-top: 10px;
+			display: inline-block;
+			font-size: 15px
+		}			
+.row-res{
+    overflow: auto;
+}
+.block-intro{
+	text-decoration: underline;
+	text-decoration-color: #4A90E2;
+	padding-bottom: 35px;
+}
+.rel-row{
+	padding-bottom: 10px
+}
+.grid-column{
+	grid-column-start: auto;
+}
+
+		
+
+a{
+  color:#4A90E2; 
+  background-color: transparent; 
+  text-decoration: none;
+
+}
+.top-main-nav li.current_page_item a{
+	color: black;
+	background-color: antiquewhite;
+	border-bottom: 5px solid #FACC2E;
+	font-weight: 550;
+}
+
+.nav-item{
+	padding-bottom: 10px;
+}
+.icon-layout{
+	font-size: 26px;
+}
+.nav-item1{
+	padding-bottom: 40px;
+}
+.left-content1{
+	font-size: 14px;
+	padding-bottom: 45px;
+}
+.left-content2{
+	font-size: 14px;
+}
+.left-link{
+	padding-top: 15px;
+	padding-bottom: 35px;
+}
+
+
+ul li a{
+    color: black
+}
+
+		
+.options i{
+	display: block;
+	font-size: 40px;
+	padding-bottom: 10px;
+	color: #999
+		}
+.icon{
+	padding-bottom: 15px;
+}
+.icon-img{
+	padding-top: 20px;
+
+}
+
+
+		
+	
+
+
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   START : MEDIA QUERIES
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Small only */
+@media screen and (max-width: 39.9375em) 
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
